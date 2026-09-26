@@ -16,7 +16,9 @@
   "darkMode": -1,
   "statusIconsLight": true,
   "url": "",
-  "permissions": [],
+  "permissions": [
+    "RECORD_AUDIO"
+  ],
   "flags": {
     "externalLinks": true,
     "confirmExit": true,
