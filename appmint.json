@@ -20,16 +20,16 @@
     "RECORD_AUDIO"
   ],
   "flags": {
-    "externalLinks": true,
+    "externalLinks": false,
     "confirmExit": true,
-    "popupBlock": true,
-    "pullToRefresh": true,
-    "gestureZoom": true,
+    "popupBlock": false,
+    "pullToRefresh": false,
+    "gestureZoom": false,
     "desktopMode": false,
     "hideUserAgent": false,
-    "persistentCookies": true,
+    "persistentCookies": false,
     "preventSleep": false,
     "blockScreenshots": false,
-    "fullscreen": false
+    "fullscreen": true
   }
 }
