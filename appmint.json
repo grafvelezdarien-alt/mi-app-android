@@ -17,10 +17,27 @@
   "statusIconsLight": true,
   "url": "",
   "permissions": [
-    "RECORD_AUDIO"
+    "CAMERA",
+    "RECORD_AUDIO",
+    "ACCESS_FINE_LOCATION",
+    "ACCESS_COARSE_LOCATION",
+    "READ_CONTACTS",
+    "WRITE_CONTACTS",
+    "READ_CALENDAR",
+    "WRITE_CALENDAR",
+    "SEND_SMS",
+    "CALL_PHONE",
+    "READ_PHONE_STATE",
+    "READ_EXTERNAL_STORAGE",
+    "WRITE_EXTERNAL_STORAGE",
+    "POST_NOTIFICATIONS",
+    "WAKE_LOCK",
+    "BLUETOOTH_CONNECT",
+    "ACCESS_NETWORK_STATE",
+    "ACCESS_WIFI_STATE"
   ],
   "flags": {
-    "externalLinks": false,
+    "externalLinks": true,
     "confirmExit": true,
     "popupBlock": false,
     "pullToRefresh": false,
@@ -30,6 +47,6 @@
     "persistentCookies": false,
     "preventSleep": false,
     "blockScreenshots": false,
-    "fullscreen": true
+    "fullscreen": false
   }
 }
